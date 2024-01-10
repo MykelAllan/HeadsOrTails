@@ -4,7 +4,7 @@
 A simple Heads or Tails game implemented in HTML, CSS, and JavaScript. Users can flip a virtual coin by clicking the "FLIP" button and track the number of heads and tails. The game includes a "Restart" button to reset the statistics.
 
 ## Demo
-Check out the live demo: [Heads or Tails Demo](https://heads-or-tails-three.vercel.app/)
+Check out the live demo: [Heads or Tails Demo](https://headsortails-mykel.vercel.app/)
 
 
 ## Getting Started
