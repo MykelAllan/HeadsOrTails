@@ -1,0 +1,87 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.container {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 30px;
+}
+  
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+.stats label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+  
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+}
+  
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+  
+button {
+    margin-left: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.9s ease;
+}
+  
+button#flip {
+    background-color: #0077cc;
+}
+  
+button#flip:hover {
+    background-color: #005fa3;
+}
+  
+button#flip:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+button#reset:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+button#reset {
+    background-color: #333;
+}
+  
+button#reset:hover {
+    background-color: #222;
+}
+  
